@@ -23,7 +23,8 @@ a. Change you serial and mac address by running ./rploader.sh serialgen DS3615xs
 
 b. Update user_config.json with your VID:PID of your usb stick by running ./rploader.sh identifyusb now
 
-c. Update user_config.json with your SataPortMap and DiskIdxMap by running ./rploader.sh satamap now (needs testing) 
+c. Update user_config.json with your SataPortMap and DiskIdxMap by running ./rploader.sh satamap now (needs testing)
+
    In some Situation use for first Install -> SataPortMap=188 and DiskIdxMap=0A0008
    Then if you install on System Disk DSM then Run TinyCore again and run ./rploader.sh satamap now
 
