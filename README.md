@@ -26,7 +26,8 @@ b. Update user_config.json with your VID:PID of your usb stick by running ./rplo
 c. Update user_config.json with your SataPortMap and DiskIdxMap by running ./rploader.sh satamap now (needs testing)
 
    In some Situation use for first Install -> SataPortMap=188 and DiskIdxMap=0A0008
-   Then if you install on System Disk DSM then Run TinyCore again and run ./rploader.sh satamap now
+   If you installed DSM then come back to TinyCore and run ./rploader.sh satamap now
+   Now all Devices should be recognize.
 
 d. Backup your changes to local loader disk by running  ./rploader.sh backup now
 
