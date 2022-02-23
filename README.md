@@ -28,6 +28,7 @@ c. Update user_config.json with your SataPortMap and DiskIdxMap by running ./rpl
    In some Situation use for first Install -> SataPortMap=188 and DiskIdxMap=0A0008
    
    If you installed DSM then come back to TinyCore and run ./rploader.sh satamap now
+   
    Now all Devices should be recognize.
 
 d. Backup your changes to local loader disk by running  ./rploader.sh backup now
